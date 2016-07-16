@@ -82,6 +82,7 @@
     <SyncOptionIgnoreDataCompression>True</SyncOptionIgnoreDataCompression>
     <SyncOptionIgnoreFullTextIndexing>False</SyncOptionIgnoreFullTextIndexing>
     -->
+    <SyncOptionIgnoreConstraintNotForReplicationAttribute>False</SyncOptionIgnoreConstraintNotForReplicationAttribute>
     <!-- Shared Developer/DBA options -->
     <!--
     <SyncOptionIgnoreIndexes>False</SyncOptionIgnoreIndexes>
