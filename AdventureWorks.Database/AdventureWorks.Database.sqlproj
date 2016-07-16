@@ -69,6 +69,7 @@
     <SyncOptionIgnoreSynonymDatabaseAndServerName>True</SyncOptionIgnoreSynonymDatabaseAndServerName>
     <SyncOptionIgnoretSQLt>False</SyncOptionIgnoretSQLt>
     -->
+    <SyncOptionDisableDdlTriggers>False</SyncOptionDisableDdlTriggers>
     <!-- These properties might be set by the DBA -->
     <!--
     <SyncOptionIgnoreDataspaces>False</SyncOptionIgnoreDataspaces>
