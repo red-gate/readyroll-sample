@@ -46,6 +46,7 @@ Table=[Production].[Culture];
 Table=[Production].[UnitMeasure];
 Table=[Sales].[Currency];
 Table=[Sales].[SalesReason];
+Table=[Person].[EmailAddressType];
 </IncludeObjectsInDataSync>
     <DeployChangesInitialImportDone>True</DeployChangesInitialImportDone>
     <BaselineUpToMigrationId>3ebe5544-66cb-4c2e-b57a-36f9512675c1</BaselineUpToMigrationId>
@@ -256,5 +257,8 @@ Table=[Sales].[SalesReason];
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\0003_Person.EmailAddressType_CreateTable.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0004_Person.EmailAddressType_IncludeTableData.sql" />
   </ItemGroup>
 </Project>
