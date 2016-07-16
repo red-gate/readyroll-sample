@@ -33,6 +33,9 @@
     <SyncToOfflineSchemaModel>False</SyncToOfflineSchemaModel>
     <SyncToOfflineSchemaModelBySchema>True</SyncToOfflineSchemaModelBySchema>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <ExcludeObjectsFromSync />
+    <IncludeObjectsInDataSync />
+    <DeployChangesInitialImportDone>False</DeployChangesInitialImportDone>
   </PropertyGroup>
   <!-- READYROLL OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -171,5 +174,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Post-Deployment\01_Finalize_Deployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0001_ImportSchema.sql" />
   </ItemGroup>
 </Project>
