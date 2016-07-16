@@ -48,6 +48,7 @@ Table=[Sales].[Currency];
 Table=[Sales].[SalesReason];
 </IncludeObjectsInDataSync>
     <DeployChangesInitialImportDone>False</DeployChangesInitialImportDone>
+    <BaselineUpToMigrationId>3ebe5544-66cb-4c2e-b57a-36f9512675c1</BaselineUpToMigrationId>
   </PropertyGroup>
   <!-- READYROLL OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
