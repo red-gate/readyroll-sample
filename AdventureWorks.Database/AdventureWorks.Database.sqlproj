@@ -30,7 +30,7 @@
     <DeployChangesImportSchemaFolders>True</DeployChangesImportSchemaFolders>
     <PreDeploymentSubFolder>Pre-Deployment</PreDeploymentSubFolder>
     <PostDeploymentSubFolder>Post-Deployment</PostDeploymentSubFolder>
-    <SyncToOfflineSchemaModel>True</SyncToOfflineSchemaModel>
+    <SyncToOfflineSchemaModel>False</SyncToOfflineSchemaModel>
     <SyncToOfflineSchemaModelBySchema>True</SyncToOfflineSchemaModelBySchema>
     <TargetDatabaseSet>True</TargetDatabaseSet>
   </PropertyGroup>
