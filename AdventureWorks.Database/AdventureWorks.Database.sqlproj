@@ -264,4 +264,7 @@ Table=[Person].[EmailAddressType];
   <ItemGroup>
     <None Include="Migrations\0005_Person.EmailAddress_AddEmailAddressTypeIdColumn.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0006_Person.Address_AddCreatedDateColumn.sql" />
+  </ItemGroup>
 </Project>
