@@ -261,4 +261,7 @@ Table=[Person].[EmailAddressType];
   <ItemGroup>
     <None Include="Migrations\0004_Person.EmailAddressType_IncludeTableData.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0005_Person.EmailAddress_AddEmailAddressTypeIdColumn.sql" />
+  </ItemGroup>
 </Project>
