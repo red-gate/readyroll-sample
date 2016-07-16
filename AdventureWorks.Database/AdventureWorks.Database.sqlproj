@@ -47,7 +47,7 @@ Table=[Production].[UnitMeasure];
 Table=[Sales].[Currency];
 Table=[Sales].[SalesReason];
 </IncludeObjectsInDataSync>
-    <DeployChangesInitialImportDone>False</DeployChangesInitialImportDone>
+    <DeployChangesInitialImportDone>True</DeployChangesInitialImportDone>
     <BaselineUpToMigrationId>3ebe5544-66cb-4c2e-b57a-36f9512675c1</BaselineUpToMigrationId>
     <DeployChangesForProgrammableObjects>True</DeployChangesForProgrammableObjects>
   </PropertyGroup>
@@ -182,6 +182,22 @@ Table=[Sales].[SalesReason];
     <Folder Include="Pre-Deployment\" />
     <Folder Include="Migrations\" />
     <Folder Include="Post-Deployment\" />
+    <Folder Include="Programmable Objects\" />
+    <Folder Include="Programmable Objects\Database Triggers\" />
+    <Folder Include="Programmable Objects\dbo\" />
+    <Folder Include="Programmable Objects\dbo\Functions\" />
+    <Folder Include="Programmable Objects\dbo\Stored Procedures\" />
+    <Folder Include="Programmable Objects\HumanResources\" />
+    <Folder Include="Programmable Objects\HumanResources\Stored Procedures\" />
+    <Folder Include="Programmable Objects\HumanResources\Views\" />
+    <Folder Include="Programmable Objects\Person\" />
+    <Folder Include="Programmable Objects\Person\Views\" />
+    <Folder Include="Programmable Objects\Production\" />
+    <Folder Include="Programmable Objects\Production\Views\" />
+    <Folder Include="Programmable Objects\Purchasing\" />
+    <Folder Include="Programmable Objects\Purchasing\Views\" />
+    <Folder Include="Programmable Objects\Sales\" />
+    <Folder Include="Programmable Objects\Sales\Views\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Create_Database.sql" />
@@ -194,5 +210,47 @@ Table=[Sales].[SalesReason];
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\0002_ImportReferenceData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\Database Triggers\ddlDatabaseTriggerLog.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetAccountingEndDate.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetAccountingStartDate.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetContactInformation.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetDocumentStatusText.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetProductDealerPrice.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetProductListPrice.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetProductStandardCost.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetPurchaseOrderStatusText.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetSalesOrderStatusText.sql" />
+    <None Include="Programmable Objects\dbo\Functions\ufnGetStock.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\uspGetBillOfMaterials.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\uspGetEmployeeManagers.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\uspGetManagerEmployees.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\uspGetWhereUsedProductID.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\uspLogError.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\uspPrintError.sql" />
+    <None Include="Programmable Objects\HumanResources\Stored Procedures\uspUpdateEmployeeHireInfo.sql" />
+    <None Include="Programmable Objects\HumanResources\Stored Procedures\uspUpdateEmployeeLogin.sql" />
+    <None Include="Programmable Objects\HumanResources\Stored Procedures\uspUpdateEmployeePersonalInfo.sql" />
+    <None Include="Programmable Objects\HumanResources\Views\vEmployee.sql" />
+    <None Include="Programmable Objects\HumanResources\Views\vEmployeeDepartment.sql" />
+    <None Include="Programmable Objects\HumanResources\Views\vEmployeeDepartmentHistory.sql" />
+    <None Include="Programmable Objects\HumanResources\Views\vJobCandidate.sql" />
+    <None Include="Programmable Objects\HumanResources\Views\vJobCandidateEducation.sql" />
+    <None Include="Programmable Objects\HumanResources\Views\vJobCandidateEmployment.sql" />
+    <None Include="Programmable Objects\Person\Views\vAdditionalContactInfo.sql" />
+    <None Include="Programmable Objects\Person\Views\vStateProvinceCountryRegion.sql" />
+    <None Include="Programmable Objects\Production\Views\vProductAndDescription.sql" />
+    <None Include="Programmable Objects\Production\Views\vProductModelCatalogDescription.sql" />
+    <None Include="Programmable Objects\Production\Views\vProductModelInstructions.sql" />
+    <None Include="Programmable Objects\Purchasing\Views\vVendorWithAddresses.sql" />
+    <None Include="Programmable Objects\Purchasing\Views\vVendorWithContacts.sql" />
+    <None Include="Programmable Objects\Sales\Views\vIndividualCustomer.sql" />
+    <None Include="Programmable Objects\Sales\Views\vPersonDemographics.sql" />
+    <None Include="Programmable Objects\Sales\Views\vSalesPerson.sql" />
+    <None Include="Programmable Objects\Sales\Views\vSalesPersonSalesByFiscalYears.sql" />
+    <None Include="Programmable Objects\Sales\Views\vStoreWithAddresses.sql" />
+    <None Include="Programmable Objects\Sales\Views\vStoreWithContacts.sql" />
+    <None Include="Programmable Objects\Sales\Views\vStoreWithDemographics.sql" />
   </ItemGroup>
 </Project>
