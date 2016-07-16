@@ -34,7 +34,19 @@
     <SyncToOfflineSchemaModelBySchema>True</SyncToOfflineSchemaModelBySchema>
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <ExcludeObjectsFromSync />
-    <IncludeObjectsInDataSync />
+    <IncludeObjectsInDataSync>
+Table=[Person].[AddressType];
+Table=[Person].[ContactType];
+Table=[Person].[PhoneNumberType];
+Table=[HumanResources].[Department];
+Table=[HumanResources].[Shift];
+Table=[Person].[CountryRegion];
+Table=[Sales].[CountryRegionCurrency];
+Table=[Production].[Culture];
+Table=[Production].[UnitMeasure];
+Table=[Sales].[Currency];
+Table=[Sales].[SalesReason];
+</IncludeObjectsInDataSync>
     <DeployChangesInitialImportDone>False</DeployChangesInitialImportDone>
   </PropertyGroup>
   <!-- READYROLL OFFLINE SCHEMA MODEL OPTIONS -->
@@ -177,5 +189,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\0001_ImportSchema.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0002_ImportReferenceData.sql" />
   </ItemGroup>
 </Project>
