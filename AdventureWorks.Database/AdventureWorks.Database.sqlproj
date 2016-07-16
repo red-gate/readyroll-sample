@@ -50,6 +50,7 @@ Table=[Sales].[SalesReason];
     <DeployChangesInitialImportDone>True</DeployChangesInitialImportDone>
     <BaselineUpToMigrationId>3ebe5544-66cb-4c2e-b57a-36f9512675c1</BaselineUpToMigrationId>
     <DeployChangesForProgrammableObjects>True</DeployChangesForProgrammableObjects>
+    <GenerateSqlPackage>True</GenerateSqlPackage>
   </PropertyGroup>
   <!-- READYROLL OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
