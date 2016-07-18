@@ -8,3 +8,6 @@
 [Bb]in/
 [Oo]bj/
 *.dbmdl
+
+# NuGet
+packages/
