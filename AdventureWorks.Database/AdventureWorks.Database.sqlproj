@@ -85,8 +85,8 @@ Table=[Sales].[SalesReason];
     <SyncOptionIgnoreCollations>True</SyncOptionIgnoreCollations>
     <SyncOptionIgnoreColumnsOrder>True</SyncOptionIgnoreColumnsOrder>
     <SyncOptionIgnoreSynonymDatabaseAndServerName>True</SyncOptionIgnoreSynonymDatabaseAndServerName>
-    <SyncOptionIgnoretSQLt>False</SyncOptionIgnoretSQLt>
-    -->
+        -->
+    <SyncOptionIgnoretSQLt>True</SyncOptionIgnoretSQLt>
     <SyncOptionDisableDdlTriggers>False</SyncOptionDisableDdlTriggers>
     <!-- These properties might be set by the DBA -->
     <!--

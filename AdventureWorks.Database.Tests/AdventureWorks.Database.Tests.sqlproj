@@ -175,4 +175,7 @@
   <ItemGroup>
     <None Include="Post-Deployment\01_Finalize_Deployment.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0001_Install_tSQLt.sql" />
+  </ItemGroup>
 </Project>
