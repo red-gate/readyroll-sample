@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Build", "AdventureWorks.Build\AdventureWorks.Build.csproj", "{44D02E19-45D5-4BD0-A760-FE6B1EB157B3}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorks.Database.Tests", "AdventureWorks.Database.Tests\AdventureWorks.Database.Tests.sqlproj", "{124C801E-7FDE-4B7D-9582-9B81417DAC23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4861A32F-4F3C-4F0A-AE35-6937BCDB6568} = {4861A32F-4F3C-4F0A-AE35-6937BCDB6568}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
