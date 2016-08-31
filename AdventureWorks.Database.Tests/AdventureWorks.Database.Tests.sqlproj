@@ -5,6 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <Name>AdventureWorks.Database.Tests</Name>
+    <TargetDatabase>AdventureWorks.Database</TargetDatabase>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{124c801e-7fde-4b7d-9582-9b81417dac23}</ProjectGuid>
