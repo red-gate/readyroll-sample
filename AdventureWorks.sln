@@ -12,6 +12,11 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorks.Database.Tes
 		{4861A32F-4F3C-4F0A-AE35-6937BCDB6568} = {4861A32F-4F3C-4F0A-AE35-6937BCDB6568}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20724477-2725-46D5-A3AC-0E21A2A92A51}"
+	ProjectSection(SolutionItems) = preProject
+		AdventureWorks.runsettings = AdventureWorks.runsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
