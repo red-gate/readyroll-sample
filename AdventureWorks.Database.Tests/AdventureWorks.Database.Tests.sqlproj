@@ -168,6 +168,9 @@
     <Folder Include="Pre-Deployment\" />
     <Folder Include="Migrations\" />
     <Folder Include="Post-Deployment\" />
+    <Folder Include="Programmable Objects\" />
+    <Folder Include="Programmable Objects\dbo" />
+    <Folder Include="Programmable Objects\dbo\Functions" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Create_Database.sql" />
@@ -177,5 +180,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\0001_Install_tSQLt.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Functions\ufnGetAccountingEndDateTests.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Functions\ufnGetAccountingStartDateTests.sql" />
   </ItemGroup>
 </Project>
