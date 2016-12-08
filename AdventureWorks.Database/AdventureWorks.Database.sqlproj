@@ -254,4 +254,7 @@ Table=[Sales].[SalesReason];
     <None Include="Programmable Objects\Sales\Views\vStoreWithContacts.sql" />
     <None Include="Programmable Objects\Sales\Views\vStoreWithDemographics.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0003_20161208-1149_mircea.dogaru.sql" />
+  </ItemGroup>
 </Project>
