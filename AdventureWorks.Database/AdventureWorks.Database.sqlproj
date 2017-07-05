@@ -174,7 +174,7 @@ Table=[Sales].[SalesReason];
     <AppDataPath>$(APPDATA)</AppDataPath>
   </PropertyGroup>
   <PropertyGroup>
-    <ReadyRollTargetsPath>..\packages\ReadyRoll.MSBuild.1.13.7.1380\tools\ReadyRoll.Data.Schema.SSDT.targets</ReadyRollTargetsPath>
+    <ReadyRollTargetsPath>..\packages\ReadyRoll.MSBuild.1.14.6.4233\tools\ReadyRoll.Data.Schema.SSDT.targets</ReadyRollTargetsPath>
   </PropertyGroup>
   <Import Condition="Exists('$(ReadyRollTargetsPath)')" Project="$(ReadyRollTargetsPath)" />
   <Import Condition="!Exists('$(ReadyRollTargetsPath)')" Project="$(MSBuildExtensionsPath)\ReadyRoll\ReadyRoll.Data.Schema.SSDT.targets" />
